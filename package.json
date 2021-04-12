@@ -8,6 +8,7 @@
   "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
+    "watchOnly": "tsc-watch --onSuccess 'ava lib/ava/model.js'",
     "watch": "tsc-watch --onSuccess 'ava'",
     "build": "rm -rf lib && tsc",
     "test": "yarn -s build && ava",

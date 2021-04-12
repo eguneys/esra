@@ -1,0 +1,11 @@
+[Event "heroku's Study: Bölüm 1"]
+[Site "https://lichess.org/study/h59qiRHL/194vdU8q"]
+[Result "*"]
+[UTCDate "2021.04.12"]
+[UTCTime "16:43:06"]
+[Variant "Standard"]
+[ECO "C30"]
+[Opening "King's Gambit"]
+[Annotator "https://lichess.org/@/heroku"]
+
+1. e4 e5 2. f4 (2. Nc3 { branch } 2... Nf6 (2... Bd6 { sibling })  (2... Be7) 3. Nd5 (3. d3 { some comments }))  (2. Na3 Nc6 (2... Na6)  (2... c6) 3. Nc4) *
