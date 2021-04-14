@@ -1,5 +1,5 @@
 {
-  "name": "stedavon",
+  "name": "esra",
   "version": "1.0.0",
   "include": [
     "src/*.ts"
@@ -8,7 +8,7 @@
   "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "watchOnly": "tsc-watch --onSuccess 'ava lib/ava/model.js'",
+    "watchOnly": "tsc-watch --onSuccess 'ava lib/ava/disect.js'",
     "watch": "tsc-watch --onSuccess 'ava'",
     "build": "rm -rf lib && tsc",
     "test": "yarn -s build && ava",

@@ -30,13 +30,13 @@ export const mTag =
 export const mResult =
   mm.mr(/^(\*)(.*)$/s, "result");
 
-export const mCommentary = mm.mseq3([
+export const mComment = mm.mseq3([
   mm.mr(/^(\s\{)(.*)$/s, "pbegin"),
   mText,
   mm.mr(/^(\})(.*)$/s, "pend"),  
-], rr.fSecond('commentary'));
+], _ => _[1]);
 
-export const mMoreCommentary = mm.mstar(mCommentary);
+export const mMoreCommentary = mm.mgroup(mm.mstar(mComment), mm.oneMatcherNode('commentary'));
 
 export const mZeroTurn = mm.mrplus(/^([1-9]\d*)\.([^\.].*)/s, 
                                    1, srr.fReduceTurn("zeroturn", 1));
@@ -76,7 +76,7 @@ export const mNAG = mm.mseq3([
   mm.mr(/^(\s)(.*)$/s, "space"),
   mm.mr(/^(\$)(.*)$/s, "nagbegin"),
   mm.mr(/^(\d\d?\d?)(.*)$/s, "nag"),
-], rr.fSecond('nag'));
+], _ => _[2]);
 
 export const mMove = mm.mseq3([
   mSanWithCastles,

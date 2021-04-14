@@ -1,4 +1,8 @@
-export const debug = `1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. c3 Qb6 { Black playing aggresive with Qb6 } { [%cal Gb6b2] } 5. Qb3 c4 (5... Qxb3 6. axb3 Bf5 7. Nf3 e6 8. Na3 (8. Nbd2 Nf6 9. Bb5 a6? (9... Be7?? 10. Ne5 O-O $18)  (9... Nd7 10. h3 f6 11. Bxc6 bxc6 12. Ke2 g5 13. Bh2 $14 { White has an idea to attack pawn "a" with double rook, because black pawn was isolate }) 10. Ne5 Rc8 11. Bxc6+ bxc6 12. Rxa6 $18 { [%cal Gc5d4,Ge3d4,Gc6c5] }) 8... cxd4 9. exd4 a6 10. b4 Nf6 $14 { White want to remove black bishop to activate his knight. In the future i think white dont want to castling because black cant attack white } { [%cal Gf3h4] }) 6. Qc2 (6. Qxb6?! axb6 { [%cal Gb6b4] } 7. Na3 e5 8. Nb5 { exchange white knight with pawn } (8. Bg3 Bxa3 9. bxa3 exd4 10. exd4 Rxa3 $19) 8... Ra5 $17) 6... Bf5? { Many strong player move Bf5. This is very bad } (6... Nf6 7. Nd2 (7. Nf3?! Bf5! { Black make the bishop activated }) 7... Nh5 (7... g6 8. e4 $10 { the best way to undermine the center } (8. b3 Bf5 9. Qd1 Qa5 10. bxc4 Qxc3 11. Ne2 Qb2 12. a3 Bd3 $10) 8... Nxe4 (8... dxe4 9. Nxc4 Qd8 10. Ne3 $14) 9. Nxe4 dxe4 10. Bxc4 Bg7 11. Be3 $10) 8. Bg5 h6 9. Bh4 g5 10. Be2 $14) 7. Qxf5! Qxb2 8. Qxd5 Qxa1 9. Qb5 a6 10. Qxb7 Nd8 11. Qe4 Qxa2 12. Bxc4! $18`;
+export const debug = `
+[Event "London System Vol 1: Qb6 structure"]
+
+1. d4!? $13 { comentary } { more comments } *
+`;
 
 export const more = `
 [Event "London System Vol 1: Introduction"]

@@ -5,6 +5,9 @@ function mrLeaf(rmv: tt.OneMatcherNode, mv: string): tt.Maybe<model.ModelRef> {
   if (mt.ignores.includes(rmv.tpe)) {
     return;
   }
+  if (mt.ids.includes(rmv.tpe)) {
+    return mv;
+  }
   return {
     [rmv.tpe]: mv
   };
