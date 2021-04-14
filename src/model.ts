@@ -1,6 +1,6 @@
 import { model } from 'tamcher';
 
-export const ignores = ['space'];
+export const ignores = ['space', 'newline'];
 
 export type PGN = {
   pgn: [Array<Tag>, MoveTextAndResult]

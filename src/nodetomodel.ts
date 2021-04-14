@@ -25,18 +25,21 @@ export default function nodeToModelReducer(rmv: tt.OneMatcherValue,
   let cFlat = children.filter(Boolean) as Array<model.ModelRef>;
 
   if (rmv === 'rootroot') {
-    return cFlat[0];
+    return cFlat;
   }
   
   if (typeof mv === 'string') {
     if (typeof rmv === 'string') {
     } else if (Array.isArray(rmv)) {
+      return cFlat;
     } else {
       return mrLeaf(rmv, mv);
     }
   } else if (Array.isArray(mv)) {
     if (typeof rmv === 'string') {
+      return cFlat;
     } else if (Array.isArray(rmv)) {
+      return cFlat;
     } else {
       return mrBranch(rmv, cFlat);
     }

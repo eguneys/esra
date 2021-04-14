@@ -1,6 +1,14 @@
 import test from 'ava';
 import * as m from '../matchers';
-import { london, hex1, kgc1 } from './_fixture';
+import { debug, more, london, hex1, kgc1 } from './_fixture';
+
+test.skip('debug', t => {
+  t.like(m.mMoveText(debug), { rest: '' });
+});
+
+test('more', t => {
+  t.like(m.mStudy(more), { rest: '' });
+});
 
 test('full', t => {
   [kgc1,

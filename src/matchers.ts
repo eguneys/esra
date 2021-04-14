@@ -36,6 +36,8 @@ export const mCommentary = mm.mseq3([
   mm.mr(/^(\})(.*)$/s, "pend"),  
 ], rr.fSecond('commentary'));
 
+export const mMoreCommentary = mm.mstar(mCommentary);
+
 export const mZeroTurn = mm.mrplus(/^([1-9]\d*)\.([^\.].*)/s, 
                                    1, srr.fReduceTurn("zeroturn", 1));
 
@@ -82,7 +84,7 @@ export const mMove = mm.mseq3([
   mm.mseq3([
     mMPOGlyphs,
     mm.mOpt(mNAG),
-    mm.mOpt(mCommentary),
+    mm.mOpt(mMoreCommentary),
   ], rr.fAll('extra'))
 ], rr.fOneAndThree('move'));
 
@@ -149,3 +151,9 @@ export const mPGN = mm.mseq3([
   mPGNTrimmed,
   mm.mOpt(mNewline)
 ], _ => _[1]);
+
+
+export const mStudy = mm.mstar(mm.meither([
+  mNewline,
+  mPGN
+]));
