@@ -8,7 +8,7 @@ export type DisectMap = {
   sanWithExtra: (san: any, extra: any) => any
 };
 
-export default class Disect {
+export class Disect {
 
   d: DisectMap
   

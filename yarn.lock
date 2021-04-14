@@ -1661,6 +1661,11 @@ serialize-error@^7.0.1:
   dependencies:
     type-fest "^0.13.1"
 
+sfilg@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/sfilg/-/sfilg-1.0.0.tgz#99b628e35fd8a2b3f082ef63c5fe47fb65dd741b"
+  integrity sha512-eQTpR6kLCQ1SeLlpydQvOarfivvs1pfNGKNVAwVY2Rih/e29/LgDmUSeffq35gpvepwuhH9ZzA/inDDMBv59Gg==
+
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
@@ -1835,6 +1840,11 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+tamcher@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tamcher/-/tamcher-1.1.1.tgz#36ca2781ed7c8ef54b4dd479840bd137f88bab26"
+  integrity sha512-KxFdo4nO51928DGVaQJ//qmHSY/gAP+csVuiLOXsqyfH/GeXhmp+RpFWFy3hDH432BdHEvAVQyEsXY81AXGldQ==
 
 temp-dir@^2.0.0:
   version "2.0.0"
