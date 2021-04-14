@@ -1,4 +1,4 @@
-# PGN Parser
+# PGN Parser ![test workflow](https://github.com/eguneys/esra/actions/workflows/test.yml/badge.svg)
 
 Parse Chess PGN files in a type safe simple way.
 
@@ -11,11 +11,11 @@ Parse Chess PGN files in a type safe simple way.
 You have a string of PGN separated by newlines:
 
 `
-let study = \`
+let study = '
 PGN
 PGN
 PGN
-\`
+'
 `
 
 There are two alternative methods to consume:
@@ -30,7 +30,7 @@ esra(study); // returns Array<em.PGN> | undefined
 
 ```
 
-// see [model.ts](./src/model.ts) for the data structure.
+See [model.ts](./src/model.ts) for the data structure.
 
 Or use `dis.Disect` to dissect the json structure into callbacks on data:
 
@@ -65,7 +65,13 @@ Or use `dis.Disect` to dissect the json structure into callbacks on data:
   
   let ds = new dis.Disect(d);
 
-  ds.study(esra(study));
+  let model = esra(study);
+
+  if (model) {
+    ds.study(model);
+  } else {
+    // couldn't parse study
+  }
 
 ```
 
