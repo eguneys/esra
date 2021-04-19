@@ -1,11 +1,14 @@
 import * as em from './model';
 
 export type DisectMap = {
+  pgn: (pgn: any) => any,
   tag: (name: string, value: string) => any,
   move: (ply: number, move: any) => any,
-  twomove: (onemove: any, move: any) => any,
+  twomove: (ply: number, move: any, move2: any) => any,
   san: (san: string) => any,
-  sanWithExtra: (san: any, extra: any) => any
+  sanWithExtra: (san: any, extra: any) => any,
+  branchSubMoves: () => void
+  endBranchSubMoves: () => void
 };
 
 export class Disect {
@@ -21,8 +24,8 @@ export class Disect {
   }
 
   pgn({pgn}: em.PGN) {
-    return [pgn[0].tags.map(this.tag.bind(this)),
-            this.mtr(pgn[1].mtr)];
+    return this.d.pgn([pgn[0].tags.map(this.tag.bind(this)),
+                       this.mtr(pgn[1].mtr)]);
   }
 
   tag({tag: [name, value]}: em.Tag) {
@@ -39,7 +42,10 @@ export class Disect {
 
   movesOrSubmoves(_: em.MoveTurnOrSubMoves): any {
     if (em.isSubMoves(_)) {
-      return _.submoves.map(this.movesOrSubmoves.bind(this));
+      this.d.branchSubMoves();
+      let res = _.submoves.map(this.movesOrSubmoves.bind(this));
+      this.d.endBranchSubMoves();
+      return res;
     } else {
       return this.moveTurn(_);
     }
@@ -60,9 +66,10 @@ export class Disect {
                        this.move(move));
   }
 
-  tMove({twomove: [onemove, move]}: em.TwoMove) {
-    return this.d.twomove(this.oneMove(onemove),
-                          this.move(move));
+  tMove({twomove: [{onemove: [zeroturn, move] }, move2]}: em.TwoMove) {
+    return this.d.twomove(this.zeroTurn(zeroturn),
+                          this.move(move),
+                          this.move(move2));
   }
 
   oneMove({onemove: [zeroturn, move]}: em.OneMove) {
@@ -71,11 +78,11 @@ export class Disect {
   }
 
   zeroTurn({zeroturn}: em.ZeroTurn) {
-    return parseInt(zeroturn) * 2 - 1;
+    return parseInt(zeroturn);
   }
 
   oneTurn({oneturn}: em.OneTurn) {
-    return parseInt(oneturn) * 2;
+    return parseInt(oneturn);
   }
 
   move({move: [sanwc, extra]}: em.Move) {

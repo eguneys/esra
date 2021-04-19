@@ -4,6 +4,12 @@ export const debug = `
 1. d4!? $13 { comentary } { more comments } *
 `;
 
+export const plies = `
+[Annotator "https://lichess.org/@/AjiFirman_BCC"]
+
+1. d4 d5 2. Nf3 e6 3. Bf4 *
+`
+
 export const more = `
 [Event "London System Vol 1: Introduction"]
 [Site "https://lichess.org/study/pdOA31Bl/VgAS9w2h"]
