@@ -8,6 +8,7 @@ function byLength(a: string, b: string) {
   return b.length - a.length;
 }
 
+export const mSpaceStar = mm.mr(/^( +)(.*)$/s, 'space');
 export const mSpace = mm.mr(/^( )(.*)$/s, 'space');
 export const mNewline = mm.mr(/^(\n)(.*)$/s, 'newline');
 export const mText = mm.mr(/^([^}]*)(.*)$/s, 'text');
@@ -83,7 +84,11 @@ export const mMove = mm.mseq3([
   mm.mpass,
   mm.mseq3([
     mMPOGlyphs,
-    mm.mOpt(mNAG),
+    mm.mseq3([
+      mm.mOpt(mNAG),
+      mm.mOpt(mNAG),
+      mm.mpass
+    ], rr.fAll('nags')),
     mm.mOpt(mMoreCommentary),
   ], rr.fAll('extra'))
 ], rr.fOneAndThree('move'));
@@ -122,7 +127,8 @@ export const mSubMoves = mm.mseq3([
 
 export const mMovesOrSub = mm.mstar(mm.meither([
   mSubMoves,
-  mMoves
+  mMoves,
+  mSpaceStar
 ]));
 
 export const mMoveText = mm.mgroup(mMovesOrSub,

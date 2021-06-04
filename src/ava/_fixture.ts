@@ -1,7 +1,33 @@
 export const debug = `
-[Event "London System Vol 1: Qb6 structure"]
+1. e4 c5 2. a3 (2. Na3 { [%csl Gc4][%cal Gb1a3,Ga3c4] } 2... Nc6 3. Nf3 { D2 } (3. Bb5 { D1 } { [%cal Gf1b5] } 3... e5!? { [%csl Gd5] } 4. d3! $146 Nge7 5. Nc4 d6 6. Bd2! { [%cal Ga7a6,Gd2a5,Gd8d7,Gc4b6] } 6... Ng6! 7. Ne3 Be7 8. Nf3 O-O 9. O-O Nd4!? 10. Bc4 Nxf3+ 11. Qxf3 Bg5! 12. a4 Be6 $10) 3... Nf6 { [%csl Gc3,Ge4] } 4. e5 Ng4 5. Qe2 f6!? 6. Nc4 Ngxe5 7. Ncxe5 fxe5 8. Nxe5 g6!? 9. Nxc6! dxc6! 10. Qe5! Qd4 11. Qxd4 cxd4 12. Bc4 b5 13. Be2 Be6 $10)  (2. f4 { E } 2... g6 3. d4!? cxd4 4. Qxd4 Nf6 5. e5 Nc6 6. Qd1 { E1 } { [%cal Gd4d1,Gf6e4] } (6. Qd3 { E2 } 6... Nh5!? { [%cal Gf6g8] } 7. Be2 d6! 8. Bxh5 Bf5 9. Qb3 gxh5 10. Nf3 { [%cal Gd8d7,Ge1h1,Ge7e6] } 10... Bg7!? $146 11. Qxb7!? Rc8 $44) 6... Ne4!? 7. Nd2 { E11 } (7. Be3 d6!? $146 8. Bd3!? Qa5+ 9. c3 Qd5! 10. Na3!? Nc5! 11. Bxc5 Qxc5 12. Nb5 Rb8! $15 { [%cal Gb5c7] }) 7... Nxd2 8. Bxd2 { [%cal Gd7d6] } 8... Bg7 9. Bc3 d6 10. Nf3 O-O 11. Bb5 { [%csl Ge5] } 11... Qb6 12. Qe2 Bg4 13. Bxc6! bxc6 14. Qf2! Qa6! 15. Qe2 Qa4 $15)  (2. c4 { B } 2... Nc6 3. Ne2!? Nf6! { [%csl Ge2] } 4. Nbc3 e6! 5. d4 d5! 6. cxd5 exd5 7. Bg5 Be7! 8. Bxf6!? Bxf6 9. dxc5 d4 10. Nd5 O-O 11. g3!? $146 Bg4 12. Bg2 d3 13. Qxd3 Bxb2 14. Rd1 Qa5+ 15. Qd2 Ba3 16. Qxa5 Nxa5 17. h3 Be6 18. O-O Bxc5 19. Nef4 $10)  (2. Bc4 { A } 2... e6! 3. Qe2 Nc6 4. Nf3 Nge7!? 5. Bb3 g6!? 6. c3 Bg7 7. d3 b6 8. O-O Ba6 9. Re1 O-O 10. Na3 d5 11. exd5 Nxd5 12. Bg5 Qc7 $15 $146 { [%csl Gd3] })  (2. Ne2 { C } 2... Nf6!? 3. Nbc3 d5! { [%csl Ge2][%cal Gd7d5] } 4. exd5 Nxd5 5. g3 Nxc3 6. Nxc3 Bd7! { [%cal Gd7c6] } 7. d4! cxd4 8. Qxd4 Nc6 9. Qe4! g6! $146 { [%cal Gd7f5] } 10. Bg2 Bg7 11. O-O O-O 12. Rd1 Qc8 13. Be3 Bf5 14. Qa4 Bh3! 15. Be4 Bg4 16. Rd5 Qe6 $10) 2... g6! 3. b4 Bg7 4. Nc3! { F2 } { [%cal Gf1g2] } (4. c3?! { F1 } { [%cal Gb1c3] } 4... d5! 5. exd5 Qxd5 6. Nf3 Nf6 7. Be2 O-O { [%cal Gc5c4] } 8. c4 Qd8 9. Bb2! b6! 10. O-O Bb7 11. d4! $146 cxd4 12. Nxd4 Ne4 13. Bf3 Qd7! 14. Qd3 Nc6! 15. Bxe4 Nxd4 16. Nc3 Bxe4 17. Qxe4 Qe6 18. Qxe6 Nxe6 $15) 4... b6! 5. Nf3 Nc6 6. Bb2!? $146 { [%cal Gc5b4] } 6... e5! 7. Bc4 Nge7 8. O-O O-O 9. Nd5 d6 $10 10. c3 Rb8 11. Ne3 b5 12. Ba2 a5 13. bxc5 dxc5 14. a4 b4 15. Qe2 Bd7 16. Bc4 Nc8 *
+`;
 
-1. d4!? $13 { comentary } { more comments } *
+export const antisic = `
+[Event "Beating the Anti - Sicilians by Vassilios Kotronias: Chapter 1 - Various 2nd Moves - Rare Options"]
+[Site "https://lichess.org/study/8DGxGjSa/nYpHZj6t"]
+[Result "*"]
+[UTCDate "2021.06.04"]
+[UTCTime "17:24:34"]
+[Variant "Standard"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Mengarini Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 c5 2. a3 (2. Na3 { [%csl Gc4][%cal Gb1a3,Ga3c4] } 2... Nc6 3. Nf3 { D2 } (3. Bb5 { D1 } { [%cal Gf1b5] } 3... e5!? { [%csl Gd5] } 4. d3! $146 Nge7 5. Nc4 d6 6. Bd2! { [%cal Ga7a6,Gd2a5,Gd8d7,Gc4b6] } 6... Ng6! 7. Ne3 Be7 8. Nf3 O-O 9. O-O Nd4!? 10. Bc4 Nxf3+ 11. Qxf3 Bg5! 12. a4 Be6 $10) 3... Nf6 { [%csl Gc3,Ge4] } 4. e5 Ng4 5. Qe2 f6!? 6. Nc4 Ngxe5 7. Ncxe5 fxe5 8. Nxe5 g6!? 9. Nxc6! dxc6! 10. Qe5! Qd4 11. Qxd4 cxd4 12. Bc4 b5 13. Be2 Be6 $10)  (2. f4 { E } 2... g6 3. d4!? cxd4 4. Qxd4 Nf6 5. e5 Nc6 6. Qd1 { E1 } { [%cal Gd4d1,Gf6e4] } (6. Qd3 { E2 } 6... Nh5!? { [%cal Gf6g8] } 7. Be2 d6! 8. Bxh5 Bf5 9. Qb3 gxh5 10. Nf3 { [%cal Gd8d7,Ge1h1,Ge7e6] } 10... Bg7!? $146 11. Qxb7!? Rc8 $44) 6... Ne4!? 7. Nd2 { E11 } (7. Be3 d6!? $146 8. Bd3!? Qa5+ 9. c3 Qd5! 10. Na3!? Nc5! 11. Bxc5 Qxc5 12. Nb5 Rb8! $15 { [%cal Gb5c7] }) 7... Nxd2 8. Bxd2 { [%cal Gd7d6] } 8... Bg7 9. Bc3 d6 10. Nf3 O-O 11. Bb5 { [%csl Ge5] } 11... Qb6 12. Qe2 Bg4 13. Bxc6! bxc6 14. Qf2! Qa6! 15. Qe2 Qa4 $15)  (2. c4 { B } 2... Nc6 3. Ne2!? Nf6! { [%csl Ge2] } 4. Nbc3 e6! 5. d4 d5! 6. cxd5 exd5 7. Bg5 Be7! 8. Bxf6!? Bxf6 9. dxc5 d4 10. Nd5 O-O 11. g3!? $146 Bg4 12. Bg2 d3 13. Qxd3 Bxb2 14. Rd1 Qa5+ 15. Qd2 Ba3 16. Qxa5 Nxa5 17. h3 Be6 18. O-O Bxc5 19. Nef4 $10)  (2. Bc4 { A } 2... e6! 3. Qe2 Nc6 4. Nf3 Nge7!? 5. Bb3 g6!? 6. c3 Bg7 7. d3 b6 8. O-O Ba6 9. Re1 O-O 10. Na3 d5 11. exd5 Nxd5 12. Bg5 Qc7 $15 $146 { [%csl Gd3] })  (2. Ne2 { C } 2... Nf6!? 3. Nbc3 d5! { [%csl Ge2][%cal Gd7d5] } 4. exd5 Nxd5 5. g3 Nxc3 6. Nxc3 Bd7! { [%cal Gd7c6] } 7. d4! cxd4 8. Qxd4 Nc6 9. Qe4! g6! $146 { [%cal Gd7f5] } 10. Bg2 Bg7 11. O-O O-O 12. Rd1 Qc8 13. Be3 Bf5 14. Qa4 Bh3! 15. Be4 Bg4 16. Rd5 Qe6 $10) 2... g6! 3. b4 Bg7 4. Nc3! { F2 } { [%cal Gf1g2] } (4. c3?! { F1 } { [%cal Gb1c3] } 4... d5! 5. exd5 Qxd5 6. Nf3 Nf6 7. Be2 O-O { [%cal Gc5c4] } 8. c4 Qd8 9. Bb2! b6! 10. O-O Bb7 11. d4! $146 cxd4 12. Nxd4 Ne4 13. Bf3 Qd7! 14. Qd3 Nc6! 15. Bxe4 Nxd4 16. Nc3 Bxe4 17. Qxe4 Qe6 18. Qxe6 Nxe6 $15) 4... b6! 5. Nf3 Nc6 6. Bb2!? $146 { [%cal Gc5b4] } 6... e5! 7. Bc4 Nge7 8. O-O O-O 9. Nd5 d6 $10 10. c3 Rb8 11. Ne3 b5 12. Ba2 a5 13. bxc5 dxc5 14. a4 b4 15. Qe2 Bd7 16. Bc4 Nc8 *
+`;
+
+export const tarrasch = `
+[Event "Playing the French: Chapter 8 - The Tarrasch Variation"]
+[Site "https://lichess.org/study/xmgcG4Qz/7oVh0HWI"]
+[Result "*"]
+[UTCDate "2021.06.02"]
+[UTCTime "23:59:19"]
+[Variant "Standard"]
+[ECO "C07"]
+[Opening "French Defense: Tarrasch Variation, Open System, Süchting Line"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5! 4. c3 { A } (4. Ngf3 { B } 4... cxd4 { [%cal Ge4d5,Gd8d5] } 5. Nxd4 Nc6! 6. Bb5 { B2 } (6. Nxc6 { B1 } 6... bxc6 7. Bd3 Nf6 8. O-O Be7 9. Qe2 O-O 10. c4 a5 11. b3 a4 12. Bb2 Ba6 13. Rad1 Re8) 6... Bd7 7. Bxc6 { B21 } (7. Nxc6 { B22 } 7... bxc6 8. Bd3 Bd6 9. Qe2 Ne7 10. Nf3 Ng6 11. O-O O-O 12. e5 Bc7 13. Ng5 Qe8! 14. f4 f5 15. c4 Bb6+ 16. Kh1 Ne7 17. b3 a5 18. Bd2 a4 19. b4 c5 20. Rab1 Rb8 21. Rfc1 d4 22. a3) 7... bxc6 8. O-O Bd6 9. Qe2 Ne7!? $146 (9... Qb8!? { Game 20 } 10. N4f3 Ne7 11. e5 Bc7 12. b3) 10. e5 Bc7 11. N2b3 Ng6)  (4. Bb5+ Bd7 5. Bxd7+ Qxd7!) 4... cxd4 5. cxd4 dxe4 6. Nxe4 Nf6 { [%cal Ge4c3,Ge4f6] } 7. Bd3 { A3 } (7. Nxf6+ { A2 } 7... Qxf6 8. Nf3 Bd7 9. Bd3! { [%cal Gd7c6,Gc1g5] } 9... Bb4+ 10. Bd2 $146 Bxd2+ 11. Qxd2 Bc6 12. Ne5!? Bxg2 13. Rg1 Bd5 14. Bb5+ Nc6 15. Rg4 $13 O-O 16. Nd7 Qf5 17. h3 f6! 18. Nxf8 Rxf8)  (7. Nc3 { A1 } 7... Be7 8. Nf3 a6 9. Bd3 b5 10. a3 Bb7 11. O-O O-O 12. Re1 Nc6 13. Bg5 { [%cal Gc1f4,Ga8c8] } 13... g6 14. Bc2 Rc8 15. Rc1 Na5 16. Ne5 Nc4 17. Bb3) 7... Nxe4 { A32 } (7... Bd7 { A31 } 8. Nc3 Bc6 9. Nf3 Nbd7 10. O-O Be7 11. Re1 O-O 12. Bc2 Qb6! $146 13. Qd3 Rfd8 $15 { [%cal Gd7f8,Gf8g6,Gf6d5] }) 8. Bxe4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 Nd7 { [%cal Gg1f3,Gd7f6,Ge4d3,Ge8g8,Gb7b6] } 11. Ne2! Nf6 12. Bf3 O-O { [%cal Ge1g1] } 13. O-O (13. Nc3?! { Game 19 } 13... Qb6 14. O-O Rd8 15. Rfd1 Bd7 16. d5 Bc6 17. Qg5 h6 18. Qe5 exd5 19. Nxd5 Nxd5 20. Bxd5 Rxd5 21. Rxd5 Re8) 13... Qb6 14. Rac1 Rd8! 15. Rc4 e5! $146 16. Ng3! Rxd4 17. Rxd4 Qxd4 18. Qxd4 exd4 19. Rd1 Bd7 20. Rxd4 Rc8 21. h3 b6 *
 `;
 
 export const plies = `

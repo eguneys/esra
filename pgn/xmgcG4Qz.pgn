@@ -1,0 +1,102 @@
+[Event "Playing the French: Chapter 1 - The Advance Variation"]
+[Site "https://lichess.org/study/xmgcG4Qz/HE8yauSF"]
+[Result "*"]
+[UTCDate "2021.05.15"]
+[UTCTime "15:39:55"]
+[Variant "Standard"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Nimzowitsch System"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 { D } (4. dxc5 { A } 4... Nc6! 5. Nf3 Bxc5 6. Bd3 f6! 7. Qe2 fxe5 8. Nxe5 Nxe5 9. Qxe5 Nf6! 10. O-O O-O 11. Nc3 Bd6 12. Qg5 e5 13. f3 a6 14. Qh4 Be6 15. Kh1 Rc8 16. Bg5 h6 17. Bd2 Nd7 $15)  (4. f4 { B } 4... Nc6 5. Nf3 Qb6 6. c3 Nh6! $15 { [%cal Gf8e7,Ge8g8,Gf7f6,Gh6f7,Gc8d7,Ga8c8,Gc5d4,Gh6f5] } 7. Bd3 Bd7! 8. Bc2 Rc8! 9. a3 Be7 10. O-O cxd4 11. cxd4 Nxd4!! 12. Nxd4 Bc5 13. Kh1 Bxd4 14. Nd2 Bb5 15. Ba4 O-O 16. Bxb5 Qxb5 17. Nb3 Nf5 18. Rf3 Bb6 19. g4 Nh6 20. h3 Qc4 21. f5 exf5 22. g5 Ng4 23. hxg4 Qxg4 24. Rd3 Qh4+ 25. Kg2 Qf2+ 26. Kh3 Rc4 27. Rg3 Rh4+ { 0-1 })  (4. Qg4 { C } 4... Nc6! 5. Nf3 Qa5+! 6. c3 cxd4 7. Bd3 dxc3 8. Nxc3 $146 d4! { [%cal Gf7f5,Gg4f4,Gg8e7] } 9. Nxd4 Qxe5+ 10. Be3 Nf6 $15 11. Qh4 Nxd4 12. Qxd4 Qxd4 13. Bxd4 Be7 $17) 4... Nc6 { D1 } (4... cxd4 { D2 } 5. Nxd4 { D21 } (5. Bd3 { D23 } 5... Ne7! 6. O-O Nec6! 7. Re1 Nd7 8. a3 Qc7! $146 9. Qe2 Nc5 10. b4 Nxd3 11. Qxd3 Be7 $15)  (5. Qxd4 { D22 } 5... Nc6 6. Qf4 Nge7! 7. Bd3 Ng6 8. Qg3 Qc7 9. Nc3 Ngxe5 10. O-O Nxf3+ 11. Qxf3 Be7 12. Bf4 Qd8 13. Rad1 O-O $17) 5... Nc6 6. Nxc6 bxc6 7. Bd3 Ne7 8. Nd2 Ng6 9. Nf3 Be7 10. Qe2 c5 11. c4 Bb7 12. O-O O-O 13. Bd2?! dxc4 14. Bxc4? Bxf3 15. gxf3 Bg5 16. Be3 Bf4 17. Rfc1 Qh4 18. Bxf4 Nxf4 19. Qe3 Qg5+ 20. Kf1 Rad8!) 5. Bd3 Nxd4!? 6. Nxd4 cxd4 7. O-O Ne7 8. Re1 Nc6 9. Qg4 Qc7! 10. Bf4 h5! $146 11. Qg3 h4 12. Qg4 h3 13. g3 Bd7 14. Nd2 O-O-O 15. Nf3 f6 16. exf6 e5 17. fxg7 Bxg7 18. Qxg7 exf4 19. Nh4 fxg3 20. fxg3 Rhg8 21. Qh6 Ne5 22. Qf4 *
+
+
+[Event "Playing the French: Chapter 2 - The Euwe System"]
+[Site "https://lichess.org/study/xmgcG4Qz/wbrIcht5"]
+[Result "*"]
+[UTCDate "2021.05.16"]
+[UTCTime "18:31:18"]
+[Variant "Standard"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 { C } (5. Be3 { A } 5... Qb6 6. Qd2 Bd7 7. Nf3 cxd4! 8. cxd4 Rc8 9. Nc3 Na5! 10. Rc1 Bb4 11. Bd3 Nc4 $10 12. Bxc4 Rxc4 13. O-O Ne7 14. a3 Bxc3 15. Rxc3 Rxc3 16. Qxc3 O-O 17. Rc1 Rc8 18. Qd2 Rxc1+ 19. Qxc1 Ba4 $146)  (5. g3 { B } 5... Qb6 6. Ne2 f6 { [%cal Gf2f4,Gg8h6,Gf1h3,Ga2a3,Ge5f6,Gf8e7,Ge8h8,Gf8f6,Ge1g1,Gh6f5,Re2f4] } 7. exf6 (7. Nf4 Qc7! 8. Qh5+ Qf7 9. Qxf7+ Kxf7) 7... Nxf6 8. Bg2 cxd4! 9. cxd4 Bd6 10. O-O O-O 11. Nbc3 Bd7 12. Kh1 Rac8 13. f4? Ne7 14. h3 Nf5 15. Qd3 Be8 16. Rd1 Bg6) 5... Bd7! { [%cal Gb1a3,Gc5d4,Gc3d4,Gf8a3,Gb2a3,Gg8e7,Gf1d3,Gd8a5,Gd1d2,Ga8c8,Ga1b1,Gb7b6,Ge1g1,Ga5d2,Gc1d2,Ge7f5,Gd3f5,Ge6f5,Gh7h6,Ge8e7] } 6. Bd3!? { C1 } (6. dxc5 { C2 } 6... Bxc5 7. b4 { C22 } (7. Bd3 { C21 } 7... f6 8. b4 Be7!? { [%cal Gc1f4,Gg8h6,Gf4h6,Gg7h6,Gb4b5] } 9. b5 Nxe5 10. Nxe5 fxe5 11. Qh5+ Kf8 12. Qxe5 { [%cal Gg8f6,Ge1g1,Gd8b8,Gf2f4,Gf8f7,Gc1e3,Ge7d6,Ge5g5,Gh8c8] } 12... Bf6! 13. Qd6+ Ne7 14. O-O e5 15. Ba3 Kf7 16. Nd2 Bf5! $146 17. Qxd8 Raxd8 18. Bxe7 Bxd3 19. Bxd8 Rxd8) 7... Bb6 { C222 } (7... Be7 { C221 } 8. b5 Na5 9. Bd3 Qc7! { [%cal Gd1e2,Gh7h5] } 10. Bf4 { [%csl Ge5,Gb5][%cal Ga5c4] } (10. Qe2 h5 11. O-O Nh6 12. a4 Nb3 13. Ra2 Nxc1 14. Rxc1 a6 { [%cal Gc3c4] }) 10... Nc4 11. O-O Bxb5 12. Nd4 Bd7 13. Qg4 g5! 14. Bxc4 h5! 15. Qe2 Qxc4 16. Qxc4 dxc4 17. Be3 Nh6 18. Nd2 Ng4 19. Nxc4 Rc8 20. Nd6+ Bxd6 21. exd6 { [%cal Gf7f6,Gg4h6,Gh6f7] } 21... e5 22. Nf3 Nxe3 23. fxe3 f6 24. Nd2 O-O 25. Rf2 Kg7) 8. b5 Na5 9. Bd3 Ne7! 10. O-O Rc8 { [%cal Ga7a6,Gd8c7] } 11. a4 Ng6 12. Re1 O-O!? { [%cal Gd1c2,Gd8e7,Gc1g5,Gf7f6,Ge5f6,Gg7f6,Gg5h4] } 13. Ra2 (13. Qc2 Qe7 14. Bg5 f6 15. exf6 gxf6 { [%cal Gd3g6,Gf6g5] } 16. Bh6 Ne5! 17. Bxf8 Nxf3+ 18. gxf3 Qxf8 19. Kh1 Qh6 20. Rg1+ Kf7 { [%cal Gb6c7,Ge6e5] }) 13... Qe7! $146 14. Bg5 { [%cal Ga2e2,Gc8c7,Gc1g5,Gf7f6,Ge5f6,Gg7f6,Gg5h6,Gf8e8,Ge7f7] } 14... f6 15. exf6 gxf6 16. Bh6 Rfe8 $15 { [%cal Ge7f7] }) 6... cxd4! 7. cxd4 Qb6 { [%cal Gd3c2,Gc6b4,Bd3e2,Bg8e7,Bb2b3,Be7f5,Bc1b2,Bf8b4] } 8. O-O Nxd4 9. Nbd2! { C12 } (9. Nxd4?! { C11 } 9... Qxd4 10. Nc3 a6 11. Qe2 Ne7! { [%cal Ge7c6,Gc6b4] } 12. Kh1 { [%cal Gf2f4,Gd4b6,Gg7g6] } 12... Nc6 13. f4 Nb4! 14. Rd1 (14. Bb1 { __ } 14... Qc4! 15. Qd1 d4 16. Ne4 d3 17. Nd2 Qc7 18. Ne4 Nc2 19. Bxc2 dxc2 20. Qg4 Qc4 21. Re1 Bc6! $146 { [%cal Ge4d6,Gf8d6,Ge5d6,Ge8c8] } 22. f5 Bxe4! 23. Qxe4 Qxe4 24. Rxe4 O-O-O!? 25. Rc4+ Kb8 26. Kg1 Rd1+ 27. Kf2 Be7 28. Rxc2 Rc8!) 14... Bc5! 15. Bxa6 Qf2 $15 16. Qxf2 Bxf2 { [%cal Ga6b7,Ga8a7,Ga2a3,Ge8g8,Ga1b1,Ga7b7,Ga3b4,Gb7b4] } 17. Be2 (17. Bb5 { Game 2 Hossein Aryanejad - Vladimir Potkin } 17... Bxb5 18. Nxb5 Rxa2! 19. Rxa2 Nxa2 20. Bd2 Kd7 21. Ra1 Rc8! 22. Na3 Bc5! 23. Rxa2 Bb4 { [%cal Gd2c3,Gd5d4,Ga3b5,Gd4c3,Gb2c3,Gb4c3,Gb5d6,Gc8c6] } 24. Be3? d4! 25. Bxd4 Rc1+ 26. Bg1 Bc5 27. h3 Rxg1+ 28. Kh2 Rf1 29. g3 Rf2+ 30. Kh1 Rf1+ 31. Kh2 Rf2+ 32. Kh1 Kc6 33. Nc4 Kd5 34. Na5 b6 35. Nb7 Bd4 36. Ra8 Rxb2 37. Nd6 f6 38. Rd8 fxe5 39. Nf7+ Ke4 40. Ng5+ Ke3 41. Rd6 h6 42. Nxe6 Kf2 43. Nxd4 exd4 { 0-1 }) 17... O-O 18. Bd2 Nc2 19. Rab1 Ne3 20. Rdc1 Bc6! { [%cal Ge2d3,Ge3c4,Gd3c4,Gd5c4] } 21. Bf3? Nc4 { [%csl Gf4][%cal Gc1c2,Gc4d2,Gc2d2,Gf2e3] })  (9. Ng5?! { Game 1 Arthur Mrugala - Reimund Lutzneberger } { [%cal Gg5f7,Gc1e3,Gb6b2,Gc6e5] } 9... Nc6! { [%cal Gb1c3,Gc6e5,Gd3h7,Rb6a5,Rd5c3,Re5d3,Rd1d3,Gg8f6,Gd1d2,Gf6h7,Gc3d5,Ge6d5,Gc1f4,Gh7g5,Gf4g5,Gf8d6] } 10. Re1 Bc5 11. Qf3 Nh6! 12. Nc3 { [%cal Gg5h7,Gh6g4] } 12... Nd4 { [%cal Gf3h3,Gh6f5,Rd4c2,Rd3c2,Rc5f2,Rg1f1,Rf2e1,Rf1e1,Ga1b1,Gh7h6,Gg5f3,Gd4c6,Ge1e2,Gf5d4,Gf3d4,Gc6d4,Ga8c8,Gc5f8,Gg7g6] } 13. Qf4 Nhf5 14. g4 h6! 15. Nxe6 fxe6 16. gxf5 Nxf5 17. Bxf5 O-O 18. Nxd5 exd5 19. e6 Rxf5 20. Qxf5 Rf8 21. exd7 Rxf5 22. Re8+ Rf8 23. d8=Q Bxf2+ 24. Kg2 Qg6+ 25. Bg5 Qxe8 26. Qxe8 Rxe8 27. Kxf2 hxg5 28. Rd1 Re5 29. a4 Kf7 30. a5 Ke6 31. Rd3 Kd6 32. Rb3 Kc6! 33. Rc3+ Kb5 { [%cal Gc3b3,Gb5a6,Gd5d4] } 34. Rc7 b6 35. axb6 axb6 36. Rxg7 Kc4 37. Rc7+ Kd3 38. Rc3+ Kd2 39. Rc6 d4 40. Rxb6 d3 41. h3 Kd1 42. b4 d2 { 0-1 }) 9... Ne7 { C122 } (9... Nxf3+!? { C121 } 10. Nxf3 Bb5! 11. Be3 Qa6 12. Bxb5+ Qxb5 13. Nd4 Qd7 { [%cal Gg8e7] } 14. Rc1 Ne7 { [%cal Gf2f4,Gg7g6] } 15. Qd3 Nc6 { [%cal Gf2f4,Gf8e7,Gd4c6,Gb7c6,Gf4f5,Ge6f5,Gd3f5,Gd7f5,Gf1f5,Gc6c5,Ge3c5,Ga8c8,Gb2b4,Ge7c5,Gb4c5,Ge8e7] } 16. Nxc6 bxc6 { [%cal Gc1c2,Ga8c8,Gf1c1,Gf8e7,Gd3a6,Gc6c5,Ge3c5,Gc8c5] } 17. Qa6 Rc8 18. Qxa7?! Qxa7 19. Bxa7 Kd7 20. Bc5 Ra8 21. a3 Bxc5 22. Rxc5 Rhb8 $15) 10. Nxd4 Qxd4 11. Nf3 Qb6 12. Be3 Qd8! { [%cal Ge3c5,Ge7g6,Gc5f8,Gg6f8,Rd1b3,Re7c6,Ra1c1,Rd8b8,Rf1d1,Rf8e7,Rd3b1,Re8g8,Rb3d3,Rg7g6,Re3h6,Rc6b4,Rd3d2,Rf8c8] } 13. Ng5 Nc6 14. f4 (14. Bxh7?! g6 15. h4 Bh6 16. h5 Nxe5 17. hxg6 fxg6 18. Qd4 Bxg5 19. Qxe5 Rxh7 20. Bxg5 Qb8) 14... Be7! $146 15. Nxh7 (15. h4 d4 16. Bd2 Bxg5 17. hxg5 Ne7) 15... Nb4 16. Bb1 Bb5 17. Rf3 d4 18. Bf2 Bc6 $17 *
+
+
+[Event "Playing the French: Chapter 3 - 6.a3"]
+[Site "https://lichess.org/study/xmgcG4Qz/Vjn7eJn9"]
+[Result "*"]
+[UTCDate "2021.05.17"]
+[UTCTime "12:10:20"]
+[Variant "Standard"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. a3 { [%cal Gg8e7,Gc5c4] } 6... c4 { B } (6... Nge7 { A } 7. b4 cxd4 8. cxd4 Nf5 9. Bb2 b5! { [%cal Rf1d3,Ra7a5,Rd3f5,Re6f5,Rb1c3,Ra5b4,Rc3b5,Rb4a3,Rb2c3,Rd8b6,Rd1e2,Rc6d8,Rb5d6,Rf8d6,Re5d6,Rd8e6,Re1g1,Rd7b5,Rf1b1,Rb5e2,Rb1b6] } 10. Nc3 a5 { [%cal Gf1b5,Ga5b4,Ga3b4] } 11. Nxb5?! axb4 12. a4 Be7 13. Bd3 O-O 14. O-O { Game 4 Dmitry Lavrik - Igor Glek } { [%cal Gd8b6,Gg2g4,Gf5h4,Gf3h4,Ge7h4,Gf2f4,Gh4e7,Gg1g2,Gc6a5,Gf4f5,Ga5c4,Gd1e2,Gf7f6,Gg2h1,Gh7h6] } 14... Na5!? 15. Nd2 Qb6 { [%cal Gd3f5,Ge6f5,Gd1f3,Gd7b5,Ga4b5,Gb6b5,Gf3f5,Ga5c4] } 16. g4?! Bxb5 17. axb5 Nxd4 18. Bxd4 Qxd4 19. Nc4 Nb3! 20. Rxa8 Rxa8 21. Qxb3 { [%cal Gd4g4,Gg1h1,Gd5c4,Gb3c4,Gg4f3,Gh1g1,Ga8d8,Gd3e2,Gf3f5] } 21... dxc4?! 22. Qxc4 Qxe5 23. Qe4 Qxe4 24. Bxe4 Rb8 25. Bc6 Bf6 26. Rb1 Bc3 27. Kf1 Kf8 28. Ke2 Ke7 29. Kd3? Rd8+ 30. Kc4 Rd4+ 31. Kc5 Rxg4 32. b6 Bd4+ 33. Kb5 Bxf2 34. Ka6 Rc4 35. Bb5 Rd4 36. Rc1 Rd6 37. Bc6 b3 38. Kb5 b2 39. Rf1 Be3 40. b7 Ba7 { 0-1 }) 7. Be3 { B3 } (7. g3 { B2 } 7... Na5 8. Nbd2 Ne7 { B21 } { [%cal Ge7c8,Gc8b6,Gd8c7,Gf8c8] } (8... Bc6 { B22 }) 9. h4 { B211 } (9. Bg2 Nc8 10. O-O Nb6 11. Re1 Qc7 12. Rb1 Ba4 13. Qe2 h6! 14. Nf1 O-O-O 15. h4 Kb8 16. Bf4 Be7 17. Ne3 Rdg8! 18. Ng4 g5 $146 19. hxg5 hxg5 20. Be3 Nd7!) 9... Nc8 { [%cal Gh4h5,Gh7h6,Gf3h4,Gc8b6,Gh4g2,Gd8c7,Gg2e3,Ge8c8,Gf2f4,Gf8e7,Gf1h3,Gc8b8,Gd1e2,Gd8f8,Ge1g1,Rf7f6,Rg7g6] } 10. Bh3 Nb6 11. O-O Be7! 12. Ne1 $146 Qc7 13. Ng2 h6!? { [%cal Gd7a4,Ga4c2,Gc2h7] } 14. Ne3 O-O-O 15. f4 f5! { [%cal Gg7g5] } 16. exf6 gxf6)  (7. Be2?! { B1 } 7... Na5 8. Nbd2 Bc6! 9. O-O Qd7! { [%cal Gc6a4,Ga4c2,Gc2g6,Ge8b8] }) 7... Na5 8. Nbd2 Bc6 9. h4 Qd7 10. h5 h6 11. Nh4 Ba4 12. Qb1! O-O-O 13. f4! Be7 { Game 7 Yochanan Afek - Stephen Giddins } 14. Bf2 Bxh4!? 15. Bxh4 Ne7! $146 { [%csl Gf8,Gg8] } 16. Be2 Rdf8 17. O-O Nf5 18. Bf2 g6 *
+
+
+[Event "Playing the French: Chapter 4 - 6.Be2"]
+[Site "https://lichess.org/study/xmgcG4Qz/FKsg9y9t"]
+[Result "*"]
+[UTCDate "2021.05.21"]
+[UTCTime "21:46:10"]
+[Variant "Standard"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. O-O { D } (7. Na3 { C } 7... cxd4 8. cxd4 Ng6! 9. h4! Be7 10. g3 O-O! 11. h5 Nh8! 12. h6 (12. Nc2 { Game 8 - Jesus de la Villa - Viktor Korchnoi } 12... f6 $15 13. exf6 Bxf6 14. b3 Nf7 15. Bb2 Qa5+ { [%cal Ga8e8,Ge6e5] } 16. Qd2 Qxd2+ 17. Nxd2 { [%csl Gd4,Ge6] } 17... Nd6 18. Bg4 Rfc8 19. O-O Rc7 20. Rfe1 Rac8! 21. Kg2 { [%cal Gc6d8,Gc2e3,Gc7c2] } 21... Kf7) 12... g6 13. Be3 f6 14. exf6 Bxf6 15. Nb1!? Nf7 16. Nc3 Ng5!?)  (7. h4 { A } 7... cxd4 8. cxd4 Qb6 9. Na3 Nf5 10. Nc2 Rc8 { A2 } (10... f6 { A1 } 11. g4 Nfe7 12. h5 Nd8 13. a4 Nec6 14. O-O Nf7 15. Bf4 Be7 16. Qd3 Rc8 17. exf6 gxf6 18. Rfe1 O-O $15) 11. g4 Nh6 12. Ne3 Ng8! $146 { [%cal Gh7h5] } 13. h5 f6! 14. a3 fxe5 15. dxe5 Qc7 $15)  (7. dxc5 { B } 7... Ng6 8. Be3 Ngxe5 9. Nxe5 Nxe5 10. f4 Nc6 11. O-O g6 12. Nd2 Bg7 13. Nf3 O-O 14. h4 b6 15. cxb6 axb6 16. h5 Ne7) 7... Ng6 { [%cal Gf8e7,Gc5d4,Gf7f6] } 8. Be3 { D3 } (8. g3 { D2 } 8... Be7 9. h4 cxd4! 10. cxd4 O-O 11. h5 Nh8 12. h6 g6 13. Nc3 f6 14. exf6 Bxf6 15. Bf4 Nf7 16. Qd2 { [%cal Gf4d6,Yf7d6] } 16... g5! 17. Be3 Nxh6 18. Bxg5 Bxg5 19. Nxg5 Nf5 20. Nf3 Qf6 21. Rad1 Be8 22. g4 Qg7 23. Kh1 Nfe7 24. Qe3 Ng6 25. Nh2 e5 $36)  (8. a3 { D1 } 8... Be7 9. b4 cxd4 10. cxd4 Rc8 11. Be3 O-O 12. Qd2 f6 13. exf6 Bxf6 14. Nc3 Nce7! { [%cal Yc3a4,Gd7a4] } 15. Bd3 Nh4 $10 { [%cal Gd7e8,Ge8g6] }) 8... Be7 { [%cal Gf3e1,Gd8b6,Gd1d2,Ge8g8,Gf2f4,Gg6h4,Rg2g3,Rc5d4,Rc3d4,Rf7f6] } 9. dxc5 Qc7!? { D32 } (9... Ngxe5 { D31 } 10. Nxe5 Nxe5 11. f4 Ng6 { [%cal Gb1d2,Gb2b4,Ge8g8,Ge7f6,Gd1c2,Ga7a5,Ga2a3,Gf8e8,Re6e5] } 12. f5 exf5 13. Qxd5 O-O 14. Nd2 Bc6 15. Qxd8 Raxd8 16. Rad1 Nh4 17. Rf2 Rfe8 18. Bc4 Bf6) 10. Na3 Ncxe5 11. Nxe5 Qxe5! { Game 9 Ivan Chaika - David Myers } 12. Bd4 Qc7 13. Nb5 Qc6 14. Bxg7 Rg8 15. Bh6 Nh4 16. g3 d4 17. f3 e5 18. Nd6+! Bxd6 19. cxd6 Qxd6 20. Bc1 e4 { [%cal Gf3e4,Gg8g3,Gg1h1,Gd7c6,Gh2g3,Gd6g3,Ge2f3,Ge8e7] } 21. Qe1 Nf5 { [%cal Gg3g4,Ge4e3,Gg1h1,Gg8g6] } 22. cxd4 e3! 23. Kg2 Qh6 24. g4 Bc6 { [%cal Gh2h3,Ge8c8,Ge2d3,Gf5h4,Gg2g1,Gd8e8] } 25. d5 Bxd5 26. Bb5+ Ke7 27. Qb4+ Qd6 28. Qxd6+ Nxd6 29. Rd1 Rxg4+ *
+
+
+[Event "Playing the French: Chapter 5 - The Exchange Variation"]
+[Site "https://lichess.org/study/xmgcG4Qz/MHvY2vNk"]
+[Result "*"]
+[UTCDate "2021.05.22"]
+[UTCTime "18:50:25"]
+[Variant "Standard"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Nf6 5. Nc3 Bb4! 6. Bd3 O-O 7. Nf3 { B } { [%cal Gf8e8,Gc1e3,Gf6g4,Ge1g1,Ge8e3] } (7. Ne2!? { A } 7... dxc4 { A2 } (7... c5!? { A1 } { [%cal Ga2a3,Gd5c4,Gd3c4,Gb4c3,Gb2c3,Gc5d4,Gc3d4] } 8. O-O { Game 10 - Henrik Molvig - Jacob Aagaard } 8... cxd4 9. Nxd4 dxc4 10. Bxc4 Bg4! 11. Qb3 Qxd4! 12. Qxb4 Be6 13. Qxb7 Bxc4 14. Qxa8! (14. Rd1?? Qb6 $19 15. Qxa8 Nc6 16. Be3 Qa6) 14... Bxf1 15. Kxf1 Ng4 16. Be3! Nxe3+ 17. fxe3 Qb6 18. Nd5 Qxb2) 8. Bxc4 Nc6! 9. O-O Bd6! { [%cal Gc3b5,Gb5d6,Gd8d6,Gc8e6,Gc4e6,Gf7e6,Ge2f4] } 10. h3 h6! 11. Be3 Re8! $146 { [%cal Gc8f5,Ra1c1,Ra7a6] } 12. Qb3 Qe7 { [%cal Gc6a5] } 13. Nd5 Nxd5 14. Bxd5 Nb4 15. Bc4 Bd7! 16. Nc3 Qf6 17. a3 Nc6 18. Qd1 Rad8) 7... dxc4 8. Bxc4 Nc6 9. O-O Bg4 10. Be3 Qd6! { [%cal Gc3b5,Gd6d7,Ga2a3,Gb4a5,Gc4e2,Gf8e8] } 11. a3 (11. Be2 Rad8 12. Qb3 h6 13. Rfd1 Rfe8 14. Rac1 Bxc3 $146 15. bxc3 Nd5 16. Re1! Nxe3 17. fxe3 Rxe3 18. Bc4 Qe7 19. Ne5 { diagram } 19... Rxe5 20. dxe5 Qc5+ 21. Kh1 Nxe5 22. Qb4! Qxc4 23. Rxe5 Be6 24. Qxc4 Bxc4 25. Rc5 { diagram } 25... Bd5! 26. Rxc7 Bc6 $15) 11... Ba5 12. Be2 Rad8 13. Qa4 Bb6 14. Rfd1 Nd5 15. Nxd5 Qxd5 16. Rd2 Ne7 17. Bg5 Bxf3 18. Bxe7 Bxe2 19. Rxe2 Rfe8 20. Rae1 Qxd4 21. Qb5 Rd7 22. Bb4 Rxe2 23. Rxe2 Qd1+! $146 24. Re1 h6! 25. h3 Qd3 *
+
+
+[Event "Playing the French: Chapter 6 - The Symmetrical Variation"]
+[Site "https://lichess.org/study/xmgcG4Qz/EG8YLy5h"]
+[Result "*"]
+[UTCDate "2021.05.25"]
+[UTCTime "15:34:18"]
+[Variant "Standard"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6! 5. Bd3 (5. Bg5 { Game 13 Lothar Schnitzspan - Krzysztof Pytel } 5... Be7 { [%cal Gf1e2,Ge8g8,Ge1g1,Gh7h6,Gg5h4,Gc8f5] } 6. h3?! O-O 7. Bd3 c5! 8. dxc5 Bxc5 9. O-O h6 10. Bh4 g5 11. Bg3 Ne4 12. Bxe4 dxe4 13. Nfd2 f5 14. Qe2 Kh7)  (5. Nc3 { Game 12 Carl Waldbrodt - Geza Maroczy } 5... Bd6 6. Bd3 O-O 7. O-O c6 8. Bg5 Bg4 9. h3 Bxf3!? 10. Qxf3 Nbd7 11. Nd1 Qb6! 12. c3 Rfe8 13. Rb1 Ne4 14. Qf5 Nf8 15. Qg4 Re6 16. Bc1 Rae8 17. Ne3 Bb8! $17 { [%csl Gh7,Gf8,Ge4,Gb8][%cal Ge8e1,Gf8h7,Gb6c7,Gb8h2] }) 5... Be7 { B } (5... Bd6 { A } 6. O-O O-O 7. Bg5 Bg4 8. Nbd2 Nbd7 9. c3 (9. c4 { Game 14 Alexandar Grischuk - Vladimir Akopian } 9... dxc4 10. Nxc4 Re8 11. Nxd6 cxd6 12. Qb3 Bxf3 13. gxf3 h6 14. Bh4 Qa5!? 15. Bg3 Nf8 16. Qxb7 Ne6 { [%cal Gg3d6] } 17. Qb5 Qd8 { [%cal Ge6d4,Gd4f3] } 18. Qb4 Rb8 19. Qxd6 Rxb2 20. Qxd8) 9... c6 10. Qc2 Qc7 11. Rae1 Rae8 12. Bh4 Bh5 13. Bg3 { [%cal Gh5g6] } 13... Bxf3!? 14. Bxd6 Qxd6 15. Nxf3 g6 $10) 6. Bg5 Bg4 7. O-O O-O 8. Nbd2 Nbd7 (8... Nc6 { Game 15 Inna Gaponenko - Monika Socko } 9. c3 h6 10. Bh4 Nh5 11. Bg3 Nxg3 12. fxg3 Qd6 13. Qc2 Rae8 14. Bf5 Bxf5 15. Qxf5 Bf6 16. Qf4 Qd7 17. Rae1 Re6) 9. c3 c5!? 10. h3 Bh5 11. Qc2 c4 12. Bf5 Bg6 13. Rae1 Re8 14. Ne5 Nxe5 15. Rxe5 Bd6 { [%cal Gg5f6,Gg7f6,Ge5e8,Gd8e8,Gd2f3,Ge8f8] } 16. f4 Qc7! 17. Bxf6 gxf6 18. Rxd5 Qc6 19. Ne4 Be7 20. Ra5 b6 21. Bxg6 hxg6 22. Ra6 f5 *
+
+
+[Event "Playing the French: Chapter 7 - Breaking the Symmetry"]
+[Site "https://lichess.org/study/xmgcG4Qz/4D0gf53p"]
+[Result "*"]
+[UTCDate "2021.05.26"]
+[UTCTime "04:42:18"]
+[Variant "Standard"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 (4. Bd3 c5! { B } 5. dxc5 { Game 18 } (5. Nf3 { B4 } 5... c4 6. Be2 Nf6 7. O-O Be7 8. b3 cxb3 9. cxb3 Nc6 10. Ne5 O-O 11. Bb2 Qb6 12. Nxc6 bxc6 13. Nc3 Bf5 $146)  (5. c3 { B3 } 5... cxd4 6. cxd4 Nc6 7. Nf3 Bd6 8. O-O Nge7 9. Nc3 O-O 10. h3 h6 11. Re1 Be6 12. a3 Rc8 13. Be3 Qd7 14. Qd2 Bf5 $146)  (5. Bb5+ { B1 } 5... Bd7 6. Bxd7+ Nxd7 7. Nf3 $146 Ngf6 8. O-O Be7 9. dxc5 Nxc5 10. Re1 O-O 11. Nc3 Ne6)  (5. Qe2+ { B2 } 5... Be7 6. dxc5 Nf6 7. Nf3 O-O 8. h3 Nc6 9. O-O Bxc5 10. c3 Re8 11. Qc2 Qd6! { [%csl Gg3][%cal Gd6g3] } 12. Nbd2 Qg3! 13. Bf5 Re2 14. Nd4 Nxd4) 5... Bxc5 6. Nf3 Nf6 7. O-O (7. Qe2+ Be6 8. Ng5 Qd7 9. Bf5 O-O 10. Nxe6 Re8) 7... O-O 8. h3 Qd6 9. a3 Qg3 10. Ng5? (10. Kh1 Bxf2 11. Nc3 Bxh3! 12. gxh3 Qxh3+ 13. Nh2 Bg3 14. Qe2 Ng4 15. Rf3)) 4... Nf6 5. Bd3 { [%cal Gf8e7,Gf8d6] } 5... c5!? 6. O-O c4 7. Re1+ Be7 8. Bf1 O-O 9. b3 (9. Bg5 { Game 17 } 9... Be6!? { [%csl Gc4][%cal Gb2b3,Gc4b3] } 10. Ne5 Nc6 11. Nc3 Rc8 12. Ne2 h6 13. Bh4 g5 14. Bg3 Ne4 15. c3 Bf6 16. Nxc6 bxc6 17. f3 Nxg3 18. Nxg3 c5 19. Ne2 Qb6 20. Qd2 Rb8) 9... cxb3 10. axb3 Nc6 11. Bd3 Bg4 12. c3 Re8 13. h3 Bh5 14. Bf4 Bd6 15. Rxe8+ Nxe8 16. Bxd6 Nxd6 17. Nbd2 Rc8 18. Qb1 *
+
+
+[Event "Playing the French: Chapter 8 - The Tarrasch Variation"]
+[Site "https://lichess.org/study/xmgcG4Qz/7oVh0HWI"]
+[Result "*"]
+[UTCDate "2021.06.02"]
+[UTCTime "23:59:19"]
+[Variant "Standard"]
+[ECO "C07"]
+[Opening "French Defense: Tarrasch Variation, Open System, Süchting Line"]
+[Annotator "https://lichess.org/@/chesteditor"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5! 4. c3 { A } (4. Ngf3 { B } 4... cxd4 { [%cal Ge4d5,Gd8d5] } 5. Nxd4 Nc6! 6. Bb5 { B2 } (6. Nxc6 { B1 } 6... bxc6 7. Bd3 Nf6 8. O-O Be7 9. Qe2 O-O 10. c4 a5 11. b3 a4 12. Bb2 Ba6 13. Rad1 Re8) 6... Bd7 7. Bxc6 { B21 } (7. Nxc6 { B22 } 7... bxc6 8. Bd3 Bd6 9. Qe2 Ne7 10. Nf3 Ng6 11. O-O O-O 12. e5 Bc7 13. Ng5 Qe8! 14. f4 f5 15. c4 Bb6+ 16. Kh1 Ne7 17. b3 a5 18. Bd2 a4 19. b4 c5 20. Rab1 Rb8 21. Rfc1 d4 22. a3) 7... bxc6 8. O-O Bd6 9. Qe2 Ne7!? $146 (9... Qb8!? { Game 20 } 10. N4f3 Ne7 11. e5 Bc7 12. b3) 10. e5 Bc7 11. N2b3 Ng6)  (4. Bb5+ Bd7 5. Bxd7+ Qxd7!) 4... cxd4 5. cxd4 dxe4 6. Nxe4 Nf6 { [%cal Ge4c3,Ge4f6] } 7. Bd3 { A3 } (7. Nxf6+ { A2 } 7... Qxf6 8. Nf3 Bd7 9. Bd3! { [%cal Gd7c6,Gc1g5] } 9... Bb4+ 10. Bd2 $146 Bxd2+ 11. Qxd2 Bc6 12. Ne5!? Bxg2 13. Rg1 Bd5 14. Bb5+ Nc6 15. Rg4 $13 O-O 16. Nd7 Qf5 17. h3 f6! 18. Nxf8 Rxf8)  (7. Nc3 { A1 } 7... Be7 8. Nf3 a6 9. Bd3 b5 10. a3 Bb7 11. O-O O-O 12. Re1 Nc6 13. Bg5 { [%cal Gc1f4,Ga8c8] } 13... g6 14. Bc2 Rc8 15. Rc1 Na5 16. Ne5 Nc4 17. Bb3) 7... Nxe4 { A32 } (7... Bd7 { A31 } 8. Nc3 Bc6 9. Nf3 Nbd7 10. O-O Be7 11. Re1 O-O 12. Bc2 Qb6! $146 13. Qd3 Rfd8 $15 { [%cal Gd7f8,Gf8g6,Gf6d5] }) 8. Bxe4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 Nd7 { [%cal Gg1f3,Gd7f6,Ge4d3,Ge8g8,Gb7b6] } 11. Ne2! Nf6 12. Bf3 O-O { [%cal Ge1g1] } 13. O-O (13. Nc3?! { Game 19 } 13... Qb6 14. O-O Rd8 15. Rfd1 Bd7 16. d5 Bc6 17. Qg5 h6 18. Qe5 exd5 19. Nxd5 Nxd5 20. Bxd5 Rxd5 21. Rxd5 Re8) 13... Qb6 14. Rac1 Rd8! 15. Rc4 e5! $146 16. Ng3! Rxd4 17. Rxd4 Qxd4 18. Qxd4 exd4 19. Rd1 Bd7 20. Rxd4 Rc8 21. h3 b6 *
