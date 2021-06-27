@@ -1,8 +1,12 @@
 import test from 'ava';
 import * as m from '../matchers';
-import { tarrasch, antisic } from './_fixture';
+import { result10, tarrasch, antisic } from './_fixture';
 
-test.only('antisic', t => {
+test.only('result 1-0', t => {
+  t.like(m.mPGN(result10), { rest: '' });
+});
+
+test('antisic', t => {
   t.like(m.mPGN(antisic), { rest: '' });
 });
 

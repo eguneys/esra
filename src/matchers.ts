@@ -28,8 +28,16 @@ export const mTag =
     mm.mr(/^(\])(.*)$/s, "tend"),
   ], mm.fSecond);
 
-export const mResult =
+export const mResultStar =
   mm.mr(/^(\*)(.*)$/s, "result");
+
+export const mResult = mm.mmap([
+  "*",
+  "1/2-1/2",
+  "½-½",
+  "0-1",
+  "1-0"
+], 'result');
 
 export const mComment = mm.mseq3([
   mm.mr(/^(\s\{)(.*)$/s, "pbegin"),

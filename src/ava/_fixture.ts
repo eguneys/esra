@@ -2,6 +2,23 @@ export const debug = `
 1. e4 c5 2. a3 (2. Na3 { [%csl Gc4][%cal Gb1a3,Ga3c4] } 2... Nc6 3. Nf3 { D2 } (3. Bb5 { D1 } { [%cal Gf1b5] } 3... e5!? { [%csl Gd5] } 4. d3! $146 Nge7 5. Nc4 d6 6. Bd2! { [%cal Ga7a6,Gd2a5,Gd8d7,Gc4b6] } 6... Ng6! 7. Ne3 Be7 8. Nf3 O-O 9. O-O Nd4!? 10. Bc4 Nxf3+ 11. Qxf3 Bg5! 12. a4 Be6 $10) 3... Nf6 { [%csl Gc3,Ge4] } 4. e5 Ng4 5. Qe2 f6!? 6. Nc4 Ngxe5 7. Ncxe5 fxe5 8. Nxe5 g6!? 9. Nxc6! dxc6! 10. Qe5! Qd4 11. Qxd4 cxd4 12. Bc4 b5 13. Be2 Be6 $10)  (2. f4 { E } 2... g6 3. d4!? cxd4 4. Qxd4 Nf6 5. e5 Nc6 6. Qd1 { E1 } { [%cal Gd4d1,Gf6e4] } (6. Qd3 { E2 } 6... Nh5!? { [%cal Gf6g8] } 7. Be2 d6! 8. Bxh5 Bf5 9. Qb3 gxh5 10. Nf3 { [%cal Gd8d7,Ge1h1,Ge7e6] } 10... Bg7!? $146 11. Qxb7!? Rc8 $44) 6... Ne4!? 7. Nd2 { E11 } (7. Be3 d6!? $146 8. Bd3!? Qa5+ 9. c3 Qd5! 10. Na3!? Nc5! 11. Bxc5 Qxc5 12. Nb5 Rb8! $15 { [%cal Gb5c7] }) 7... Nxd2 8. Bxd2 { [%cal Gd7d6] } 8... Bg7 9. Bc3 d6 10. Nf3 O-O 11. Bb5 { [%csl Ge5] } 11... Qb6 12. Qe2 Bg4 13. Bxc6! bxc6 14. Qf2! Qa6! 15. Qe2 Qa4 $15)  (2. c4 { B } 2... Nc6 3. Ne2!? Nf6! { [%csl Ge2] } 4. Nbc3 e6! 5. d4 d5! 6. cxd5 exd5 7. Bg5 Be7! 8. Bxf6!? Bxf6 9. dxc5 d4 10. Nd5 O-O 11. g3!? $146 Bg4 12. Bg2 d3 13. Qxd3 Bxb2 14. Rd1 Qa5+ 15. Qd2 Ba3 16. Qxa5 Nxa5 17. h3 Be6 18. O-O Bxc5 19. Nef4 $10)  (2. Bc4 { A } 2... e6! 3. Qe2 Nc6 4. Nf3 Nge7!? 5. Bb3 g6!? 6. c3 Bg7 7. d3 b6 8. O-O Ba6 9. Re1 O-O 10. Na3 d5 11. exd5 Nxd5 12. Bg5 Qc7 $15 $146 { [%csl Gd3] })  (2. Ne2 { C } 2... Nf6!? 3. Nbc3 d5! { [%csl Ge2][%cal Gd7d5] } 4. exd5 Nxd5 5. g3 Nxc3 6. Nxc3 Bd7! { [%cal Gd7c6] } 7. d4! cxd4 8. Qxd4 Nc6 9. Qe4! g6! $146 { [%cal Gd7f5] } 10. Bg2 Bg7 11. O-O O-O 12. Rd1 Qc8 13. Be3 Bf5 14. Qa4 Bh3! 15. Be4 Bg4 16. Rd5 Qe6 $10) 2... g6! 3. b4 Bg7 4. Nc3! { F2 } { [%cal Gf1g2] } (4. c3?! { F1 } { [%cal Gb1c3] } 4... d5! 5. exd5 Qxd5 6. Nf3 Nf6 7. Be2 O-O { [%cal Gc5c4] } 8. c4 Qd8 9. Bb2! b6! 10. O-O Bb7 11. d4! $146 cxd4 12. Nxd4 Ne4 13. Bf3 Qd7! 14. Qd3 Nc6! 15. Bxe4 Nxd4 16. Nc3 Bxe4 17. Qxe4 Qe6 18. Qxe6 Nxe6 $15) 4... b6! 5. Nf3 Nc6 6. Bb2!? $146 { [%cal Gc5b4] } 6... e5! 7. Bc4 Nge7 8. O-O O-O 9. Nd5 d6 $10 10. c3 Rb8 11. Ne3 b5 12. Ba2 a5 13. bxc5 dxc5 14. a4 b4 15. Qe2 Bd7 16. Bc4 Nc8 *
 `;
 
+export const result10 = `
+[Event "4...Bc5"]
+[Site "https://lichess.org/study/UwttpO9c/suM7y1EZ"]
+[Date "1996.??.??"]
+[White "Glek, I."]
+[Black "Zude, A."]
+[Result "1-0"]
+[UTCDate "2021.06.27"]
+[UTCTime "10:17:14"]
+[Variant "Standard"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[Annotator "https://lichess.org/@/amazingatlas"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. g3 Bc5 (4... d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 Bd6 8. O-O O-O 9. Rb1 Rb8 10. d4 Bg4 11. h3 Bd7 12. Qd3 exd4 13. Ng5 g6 14. cxd4 Nb4 15. Qd2 Nxa2 16. Nxh7 Kxh7 17. Qh6+ Kg8 18. Bd5 Nc3 19. Qxg6+ Kh8 20. Qh5+ Kg8 21. Bc4 b5 22. Bg5 Be7 23. Qg6+ Kh8 24. Bf6+ Bxf6 25. Qh6+ Kg8 26. Bd3 Ne2+ 27. Kh2 { 1-0 Glek,I-Kroeze,F/4...d5 1996 })  (4... Bb4 5. Bg2 d6 6. d3 Bg4 7. h3 Bh5 8. O-O h6 9. g4 Bg6 10. Nh4 Bh7 11. Nf5 Bxf5 12. exf5 Qd7 13. Nd5 Nxd5 14. Bxd5 O-O-O 15. c3 Bc5 16. b4 Bb6 17. a4 a5 18. Be3 Ne7 19. Bg2 d5 20. Bxb6 cxb6 21. bxa5 bxa5 22. Rb1 Qd6 23. Rb5 b6 24. Qb3 Kc7 25. Rb1 { 1-0 Glek,I-Van den Broek,R/4...Bb4 2002 })  (4... d6 5. Bg2 Be7 6. d4 exd4 7. Nxd4 Bd7 8. O-O Nxd4 9. Qxd4 Bc6 10. e5 dxe5 11. Bxc6+ bxc6 12. Qxe5 O-O 13. Bg5 Nd5 14. Bxe7 Qxe7 15. Qxe7 Nxe7 16. Rfe1 Nd5 17. Nxd5 cxd5 18. Re7 Rfc8 19. Rd1 Kf8 20. Rd7 c6 21. Re1 Re8 22. Rxe8+ Rxe8 23. Rc7 Re1+ 24. Kg2 Re6 25. Kf3 a6 26. b3 Ke8 27. Ra7 Rf6+ 28. Ke3 c5 29. Rc7 d4+ 30. Ke2 Rf5 31. f4 h5 32. Kd3 Kd8 33. Rc6 Kd7 34. Rxa6 { 1-0 Petrov,M-Mazurok,A/4...d6 2010 })  (4... g6 5. d4 exd4 6. Nxd4 Bg7 7. Nde2 O-O 8. Bg2 d6 9. h3 Re8 10. O-O Bd7 11. f4 a5 12. g4 h6 13. Be3 a4 14. Qd2 a3 15. b3 b5 16. Ng3 b4 17. Nce2 Nh7 18. e5 dxe5 19. Rad1 Nf8 20. fxe5 Nxe5 21. Bxh6 Bxh6 22. Qxh6 Ra5 23. Nf4 Nh7 24. Nfh5 gxh5 25. Nxh5 Qg5 26. Nf6+ Qxf6 27. Rxf6 Nxf6 28. Qxf6 Rc5 29. Rd5 Rxc2 30. Rxe5 Rxe5 31. Qxe5 Rxa2 32. Qg5+ Kf8 33. Qc5+ Ke8 34. Qxb4 { 1-0 Hector,J-Hartman,C/4...g6 1996 }) 5. Bg2 d6 6. d3 O-O 7. Na4 Bb6 8. Nxb6 axb6 9. O-O Re8 10. h3 h6 11. Re1 Bd7 12. Kh2 Ne7 13. d4 Ng6 14. b3 Bc6 15. d5 Bd7 16. Nd2 Rf8 17. Nc4 Nh7 18. Ne3 Ne7 19. Qd3 Qc8 20. f4 exf4 21. gxf4 Ng6 22. Nc4 b5 23. Nb2 Re8 24. Qg3 Kh8 25. Nd3 Re7 26. Bb2 Qe8 27. Bf3 c6 28. e5 dxe5 29. d6 exf4 30. Qxg6 fxg6 31. Rxe7 Qf8 32. Rxd7 Nf6 33. Nxf4 Qc8 34. Nxg6+ Kh7 35. Be4 { 1-0 Black resigns. } 1-0
+`;
+
 export const antisic = `
 [Event "Beating the Anti - Sicilians by Vassilios Kotronias: Chapter 1 - Various 2nd Moves - Rare Options"]
 [Site "https://lichess.org/study/8DGxGjSa/nYpHZj6t"]
