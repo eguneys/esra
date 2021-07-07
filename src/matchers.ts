@@ -40,12 +40,16 @@ export const mResult = mm.mmap([
 ], 'result');
 
 export const mComment = mm.mseq3([
-  mm.mr(/^(\s\{)(.*)$/s, "pbegin"),
+  mm.mr(/^(\{)(.*)$/s, "pbegin"),
   mText,
   mm.mr(/^(\})(.*)$/s, "pend"),  
 ], _ => _[1]);
 
-export const mMoreCommentary = mm.mgroup(mm.mstar(mComment), mm.oneMatcherNode('commentary'));
+export const mMoreCommentary = mm.mgroup(mm.mstar(mm.mseq3([
+  mm.mOpt(mSpace),
+  mm.mpass,
+  mComment
+], _ => _[2])), mm.oneMatcherNode('commentary'));
 
 export const mZeroTurn = mm.mrplus(/^([1-9]\d*)\.([^\.].*)/s, 
                                    1, srr.fReduceTurn("zeroturn", 1));
@@ -97,7 +101,7 @@ export const mMove = mm.mseq3([
       mm.mOpt(mNAG),
       mm.mpass
     ], rr.fAll('nags')),
-    mm.mOpt(mMoreCommentary),
+    mm.mOpt(mMoreCommentary)
   ], rr.fAll('extra'))
 ], rr.fOneAndThree('move'));
 
@@ -156,7 +160,11 @@ export const mMoveTextAndResult = mm.mseq3([
 
 export const mPGNTrimmed = mm.mseq3([
   mTags,
-  mNewline,
+  mm.mseq3([
+    mNewline,
+    mm.mOpt(mMoreCommentary),
+    mm.mOpt(mNewline)
+  ], _ => _[2]),
   mMoveTextAndResult
 ], rr.fOneAndThree('pgn'))
 

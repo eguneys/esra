@@ -1,8 +1,14 @@
 import test from 'ava';
 import * as m from '../matchers';
-import { result10, tarrasch, antisic } from './_fixture';
+import { commentearly, result10, tarrasch, antisic } from './_fixture';
 
-test.only('result 1-0', t => {
+
+test('comment early', t => {
+  t.like(m.mPGN(commentearly), { rest: '' });
+});
+
+
+test('result 1-0', t => {
   t.like(m.mPGN(result10), { rest: '' });
 });
 
